@@ -5,7 +5,7 @@ Team Name: Bytics.inc
 
 Members:
 -	Krystan Kornafel (KrystanKornafel) student number: 300172917
--	 Matthew Buentiempo (mmaattttbb) student number: 
+-	Matthew Buentiempo (mmaattttbb) student number: 300346537
 -	Keno Obuwoma (oobuw041) student number: 
 -	Mehdi Semmar (FtKuBo) student number: 
 -	Samarventhan Surendran (SS-SSUM021) student number: 300376981
