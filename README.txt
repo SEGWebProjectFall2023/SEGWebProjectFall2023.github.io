@@ -4,7 +4,7 @@ This is the initial repository that will be used for our project this semester. 
 Team Name: Bytics.inc
 
 Members:
--	Krystan Kornafel (KrystanKornafel) student number: 
+-	Krystan Kornafel (KrystanKornafel) student number: 300172917
 -	 Matthew Buentiempo (mmaattttbb) student number: 
 -	Keno Obuwoma (oobuw041) student number: 
 -	Mehdi Semmar (FtKuBo) student number: 
