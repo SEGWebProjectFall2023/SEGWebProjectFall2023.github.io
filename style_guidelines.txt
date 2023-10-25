@@ -12,6 +12,7 @@ These are our color swatches:
 - #F2A541
 - #O6A77D
 
+
 Iconography <edit beyond this point>
 ===========
 We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel.
