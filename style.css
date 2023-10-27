@@ -190,3 +190,17 @@ header{
 .button1 {background-color: #eb9824;} 
 
 .button1:hover {background-color: #8fbff3};
+
+body {
+    font-family: Arial, sans-serif;
+}
+.team-member {
+    margin: 40px;
+    padding: 30px;
+    border: 2px solid #577590;
+    border-radius: 10px;
+}
+.team-member img {
+    max-width: 100px;
+    border-radius: 50px; 
+}
