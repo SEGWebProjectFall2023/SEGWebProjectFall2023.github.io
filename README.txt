@@ -7,7 +7,7 @@ Members:
 -	Krystan Kornafel (KrystanKornafel) student number: 300172917
 -	Matthew Buentiempo (mmaattttbb) student number: 300346537
 -	Keno Obuwoma (oobuw041) student number: 300345036
--	Mehdi Semmar (FtKuBo) student number: 
+-	Mehdi Semmar (FtKuBo) student number: 300372426
 -	Samarventhan Surendran (SS-SSUM021) student number: 300376981
 -	Jaouen Girijambo (kygan2020) student number: 
 
