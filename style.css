@@ -1,9 +1,11 @@
 body
 {
 	font-size:30px;
-    background-color: #F3CA40;
-	height: 80%;
+    background-color: #FFF8DC;
+	height: 1000px;
 }
+
+
 
 .button {
   border: none;
@@ -46,11 +48,11 @@ header
 
 footer 
 {
-	position:relative;
-	bottom: 0px;
+	position: relative;
+	bottom: 0;
     left:0%;
     right:0%;
-    background-color: cyan;
+    background-color: #B0E0E6;
     text-align: center;
     height: 100px;
     width: 100%;
