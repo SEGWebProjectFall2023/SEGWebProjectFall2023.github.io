@@ -3,6 +3,7 @@
 
 <head>
 	<title>MealBytes - Bytics inc</title>
+	<link href="style.css" rel="stylesheet">
 	<meta charset="utf-8">
 
 	<style>
@@ -33,9 +34,35 @@
 
 </head>
 
-<body>
+<script type="text/javascript">
+//var outputText = document.getElementById("MealKitStores");
+function searchMenusInDistrict() {
+	//When writing this code, I referenced from: https://stackoverflow.com/questions/15987140/how-to-check-if-an-item-is-selected-from-an-html-drop-down-list
+	//and https://www.geeksforgeeks.org/how-to-get-the-text-of-option-tag-by-value-using-javascript/
+	//will need to update the getElementById("District_list") and replace District_list with whatever Keno writes
+	var input = document.getElementById("Locations");
+	var itemSelected = input.options.[input.selectedIndex].value;
+	if(itemSelected == "location_1"){
+	//this means Kanata was selected
+		document.write("Kanata MealKit1\nKanata MealKit2\nKanata MealKit3")
+	} else if (itemSelected == "location_3"){
+	//this means that Barrhaven was selected
+		document.write("Barrhaven MealKit1\nBarrhaven MealKit2\nBarrhaven MealKit3")
+	} else if (itemSelected == "location_2"){
+	//this means that Nepean was selected
+		document.write("Nepean MealKit1\nNepean MealKit2\nNepean MealKit3")
+	} else {
+	//this means that Downtown was selected
+		document.write("Downtown MealKit1\nDowntown MealKit2\nDowntown MealKit3")
+	}
+	
+}
+</script>
+
+<body style="text-align:center;">
 	<!-- Reference: https://www.w3schools.com/tags/tag_header.asp -->
 	<!-- header --> 
+
 	
 	<div class="header">
 		<div class="title">
@@ -53,6 +80,47 @@
 			<a href="team.html" class="button">Team</a>
 		  </p>
 		</div>
+
+	<div class="header">
+    <div class="title">
+      <div cvlass="logo">
+        <a href="index.html">
+          <img src="Images/Untitled1.png" alt="Bytics Inc. Logo" style="float:left;">
+        </a>
+      </div>
+      <p>Bytics Inc. MealBytes</p>
+    </div>
+      <p>
+      <a href="index.html" class="button3">Home</a>
+      <a href="features.html" class="button3">Product Features</a>
+      <a href="pricing.html" class="button3">Pricing</a>
+      <a href="team.html" class="button3">Team</a>
+      </p>
+    </div>
+	
+	
+	<br><br>
+	
+	<!-- style="color:rgb(219, 155, 28);" -->
+		<h1>
+			Product Offers!
+		</h1>
+	
+		<h3>
+			No need to worry about your location we got you covered!
+		</h3>
+	
+		<select id='Locations'>
+			<option value='location_1'>Kanata</option>
+			<option value='location_2'>Nepean</option>
+			<option value='location_3'>Barrhaven</option>
+			<option value='location_4'>Downtown</option>
+		</select>
+		
+		<br><br>
+	
+	<p id="MealKitStores"></p>
+
 	
 	<h1>&nbsp;&nbsp;&nbsp;&nbsp; Welcome to the product features page!</h1>
 	<!-- Put your code inside these body tags -->
@@ -63,6 +131,17 @@
 	<!-- Assurez-vous de mettre votre code en retrait! -->
 	<!-- Ajoutez votre fonctionnalité ici -->
 	
+	
+	<div class="col-sm-8">
+
+		 <h3>
+			<script type="text/javascript">
+					searchMenusInDistrict();
+			</script>
+		</h3>
+
+			 
+	</div>
 	
 	
 	<!-- footer --> 
