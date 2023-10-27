@@ -7,6 +7,31 @@
 	<meta charset="utf-8">
 </head>
 
+<script type="text/javascript">
+//var outputText = document.getElementById("MealKitStores");
+function searchMenusInDistrict() {
+	//When writing this code, I referenced from: https://stackoverflow.com/questions/15987140/how-to-check-if-an-item-is-selected-from-an-html-drop-down-list
+	//and https://www.geeksforgeeks.org/how-to-get-the-text-of-option-tag-by-value-using-javascript/
+	//will need to update the getElementById("District_list") and replace District_list with whatever Keno writes
+	var input = document.getElementById("District_list");
+	var itemSelected = input.options.[input.selectedIndex].value;
+	if(itemSelected == "District1"){
+	//this means Kanata was selected
+		document.write("Kanata MealKit1\nKanata MealKit2\nKanata MealKit3")
+	} else if (itemSelected == "District2"){
+	//this means that Barrhaven was selected
+		document.write("Barrhaven MealKit1\nBarrhaven MealKit2\nBarrhaven MealKit3")
+	} else if (itemSelected == "District3"){
+	//this means that Nepean was selected
+		document.write("Nepean MealKit1\nNepean MealKit2\nNepean MealKit3")
+	} else {
+	//this means that Downtown was selected
+		document.write("Downtown MealKit1\nDowntown MealKit2\nDowntown MealKit3")
+	}
+	
+}
+</script>
+
 <body>
 	<!-- Reference: https://www.w3schools.com/tags/tag_header.asp -->
 	<!-- header --> 
@@ -21,6 +46,7 @@
 	</header>
 	
 	
+	<p id="MealKitStores"></p>
 	
 	<h1>&nbsp;&nbsp;&nbsp;&nbsp; Welcome to the product features page!</h1>
 	<!-- Put your code inside these body tags -->
@@ -31,6 +57,17 @@
 	<!-- Assurez-vous de mettre votre code en retrait! -->
 	<!-- Ajoutez votre fonctionnalité ici -->
 	
+	
+	<div class="col-sm-8">
+
+		 <h3>
+			<script type="text/javascript">
+					searchMenusInDistrict();
+			</script>
+		</h3>
+
+			 
+	</div>
 	
 	
 	<!-- footer --> 
