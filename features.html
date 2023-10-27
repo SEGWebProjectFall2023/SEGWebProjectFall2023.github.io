@@ -13,15 +13,15 @@ function searchMenusInDistrict() {
 	//When writing this code, I referenced from: https://stackoverflow.com/questions/15987140/how-to-check-if-an-item-is-selected-from-an-html-drop-down-list
 	//and https://www.geeksforgeeks.org/how-to-get-the-text-of-option-tag-by-value-using-javascript/
 	//will need to update the getElementById("District_list") and replace District_list with whatever Keno writes
-	var input = document.getElementById("District_list");
+	var input = document.getElementById("Locations");
 	var itemSelected = input.options.[input.selectedIndex].value;
-	if(itemSelected == "District1"){
+	if(itemSelected == "location_1"){
 	//this means Kanata was selected
 		document.write("Kanata MealKit1\nKanata MealKit2\nKanata MealKit3")
-	} else if (itemSelected == "District2"){
+	} else if (itemSelected == "location_3"){
 	//this means that Barrhaven was selected
 		document.write("Barrhaven MealKit1\nBarrhaven MealKit2\nBarrhaven MealKit3")
-	} else if (itemSelected == "District3"){
+	} else if (itemSelected == "location_2"){
 	//this means that Nepean was selected
 		document.write("Nepean MealKit1\nNepean MealKit2\nNepean MealKit3")
 	} else {
@@ -32,7 +32,7 @@ function searchMenusInDistrict() {
 }
 </script>
 
-<body>
+<body style="text-align:center;">
 	<!-- Reference: https://www.w3schools.com/tags/tag_header.asp -->
 	<!-- header --> 
 	<header>
@@ -45,6 +45,23 @@ function searchMenusInDistrict() {
 	  </p>
 	</header>
 	
+	<!-- style="color:rgb(219, 155, 28);" -->
+		<h1>
+			Product Offers!
+		</h1>
+	
+		<h3>
+			No need to worry about your location we got you covered!
+		</h3>
+	
+		<select id='Locations'>
+			<option value='location_1'>Kanata</option>
+			<option value='location_2'>Nepean</option>
+			<option value='location_3'>Barrhaven</option>
+			<option value='location_4'>Downtown</option>
+		</select>
+		
+		<br><br>
 	
 	<p id="MealKitStores"></p>
 	
