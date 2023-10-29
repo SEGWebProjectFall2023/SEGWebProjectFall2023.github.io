@@ -7,8 +7,20 @@
   <link href="style.css" rel="stylesheet">
   <meta charset="utf-8">
   <style>
-
-    </style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .team-member {
+      margin: 40px;
+      padding: 30px;
+      border: 2px solid #577590;
+      border-radius: 10px;
+    }
+    .team-member img {
+      max-width: 100px;
+      border-radius: 50px;
+    }
+      </style>
 
 </head>
 
@@ -30,11 +42,13 @@
 		  <a href="team.html" class="button3">Team</a>
 		  </p>
 		</div>
+  
 
+  <body>
 	<!-- Reference: https://www.w3schools.com/tags/tag_header.asp -->
 	<!-- header --> 
 
-	<h1 id="annonce">Welcome to the team page where you can learn more about us!</h1>
+	<h1 style="font-size: 24px; margin-top: 100px; text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp; Welcome to the team page where you can learn more about us!</h1>
 	<!-- Put your code inside these body tags -->
 	<!-- Make sure you indent your code! -->
 	<!-- Add your feature in here -->
@@ -57,65 +71,73 @@
 
 
 
-  <h1 style="font-size: 30px; text-align: center;">Who we are!</h1>
-<body>
+  <body>
 
-<div class="team-member">
-  <!--img src="image of person" alt="name of image of person"-->
-  <h2>Krystan Kornafel</h2>
-  <p>blah</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</div>
-
-<div class="team-member">
-  <!--img src="image of person" alt="name of image of person"-->
-  <h2>Samarventhan Surendran</h2>
-  <p>blah</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</div>
-
-<div class="team-member">
-  <!--img src="image of person" alt="name of image of person"-->
-  <h2>Matthew Buentiempo</h2>
-  <p>blah</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</div>
-
-<div class="team-member">
-  <!--img src="image of person" alt="name of image of person"-->
-  <h2>Keno Obuwoma</h2>
-  <p>blah</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</div>
-
-<div class="team-member">
-  <!--img src="image of person" alt="name of image of person"-->
-  <h2>Mehdi Semmar</h2>
-  <p>blah</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</div>
-
-<div class="team-member">
-  <!--img src="image of person" alt="name of image of person"-->
-  <h2>Jaouen Girijambo</h2>
-  <p>blah</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</div>
-
-<script>
-  //javascript
-</script>
-</body>
-
-
-
-
+    <p id="text" style="font-size: 24px; margin-top: -10px; text-align: center;">Welcome</p>
+  
+    <script>
+        const textElement = document.getElementById("text");
+  
+        const textValues = ["Welcome", "Who We Are", "How to Contact Us"];
+        let currentIndex = 0;
+  
+        function updateText() {
+            textElement.textContent = textValues[currentIndex];
+            currentIndex = (currentIndex + 1) % textValues.length;
+        }
+  
+  
+        setInterval(updateText, 3000);
+    </script>
+  
+  <div class="team-member">
+    
+    <h2>Krystan Kornafel</h2>
+    <p>I am a Software Engineering student at the University of Ottawa who is passionate about Cryptography, Astronomy and learning about different technologies in the industry. </p>
+    <p><a href="mailto:hege@example.com">kkorn022@uottawa.ca</a></p>
+  </div>
+  
+  <div class="team-member">
+    
+    <h2>Samarventhan Surendran</h2>
+    <p>I am an enthusiastic student at the University of Ottawa, currently pursuing a degree in Software Engineering. My passion for technology and coding is what drives me in my journey to become a skilled software developer</p>
+    <p><a href="mailto:hege@example.com">ssure086@uottawa.ca</a></p>
+  </div>
+  
+  <div class="team-member">
+    
+    <h2>Matthew Buentiempo</h2>
+    <p></p>
+    <p><a href="mailto:hege@example.com">mbuen042@uottawa.ca</a></p>
+  </div>
+  
+  <div class="team-member">
+    
+    <h2>Keno Obuwoma</h2>
+    <p>I am an aspiring software engineer at the University of Ottawa. In my free time, I love learning new things and meeting new people.</p>
+    <p><a href="mailto:hege@example.com">oobuw041@uottawa.ca</a></p>
+  </div>
+  
+  <div class="team-member">
+   
+    <h2>Mehdi Semmar</h2>
+    <p></p>
+    <p><a href="mailto:hege@example.com">msemm031@uottawa.ca</a></p>
+  </div>
+  
+  <div class="team-member">
+  
+    <h2>Jaouen Girijambo</h2>
+    <p></p>
+    <p><a href="mailto:hege@example.com">jgiri024@uottawa.ca</a></p>
+  </div>
+  </body>
   <!-- footer --> 
   <!-- Reference: https://www.w3schools.com/tags/tag_footer.asp -->
 
-	<footer>
-	<p><a href="mailto:hege@example.com">hege@example.com</a></p>
-	</footer>
+  <footer>
+    <p><a href="mailto:hege@example.com">Bytics_inc@hotmail.com</a></p>
+  </footer>
 </body>
 
 </html>
