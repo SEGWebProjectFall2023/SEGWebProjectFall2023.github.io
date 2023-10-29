@@ -8,9 +8,11 @@ Colours
 For MealBytes, the colours that will be used will reflect that are product promotes happiness and a more cheerful lifestyle.
 These are our color swatches:
 
-- #F3CA40
-- #F2A541
-- #O6A77D
+- #EB9824
+- #FFF8DC
+- #8FBFF3
+- #577590
+- #B0E0E6
 
 
 Iconography
@@ -23,7 +25,7 @@ We will be using Arial from Google Fonts.
 
 Links
 =====
-Links will not be underlined and should change color when a user hovers over it.
+Links will not be underlined but will change from a dark gray to a light gray when hovered over.
 
 Buttons
 =======
