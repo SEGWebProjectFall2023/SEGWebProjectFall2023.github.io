@@ -6,30 +6,102 @@ body
 }
 
 
-
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-top-left-radius: 1000px;
-  border-top-right-radius: 1000px;
-  border-bottom-right-radius:1000px;
-  border-bottom-left-radius: 1001px;
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: 0.7px;
-
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-
+#annonce{
+    font-size:35px;
+    text-align: center;
+    margin-top:15%;
 }
 
+table{
+    text-align:center;
+    margin-left:23%;
+    margin-top:5%;
+    margin-bottom:10%
+}
+.Base{
+    font-size: 35px;
+    font-weight: bold;
+    color:cyan;
+}
+
+.Prix{
+    font-size:65px;
+    color:orange;
+}
+.featers{
+    font-size:25px;
+}
+td{
+    padding:30px
+}
+
+
+.button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-top-left-radius: 1000px;
+      border-top-right-radius: 1000px;
+      border-bottom-right-radius:1000px;
+      border-bottom-left-radius: 1001px;
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 400;
+      letter-spacing: 0.7px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
     
+    }
+
+.no{
+    text-decoration:line-through;
+    font-size:25px;
+}
+.btn{
+    border:none;
+    color:white;
+    background-color: rgb(255, 218, 82);
+    font-size:40px;
+    padding:10px;
+    border-radius: 30px;
+}
+.btn:hover{
+    color:black;
+    opacity:0.7;
+}
+    
+.header{
+	height: 100px;
+	width: auto;
+	border-radius: 25px;
+	background-color: rgb(255, 218, 82);
+	}
+.title{
+	display: grid;
+	grid-template-columns: 500px 500px;
+	grid-template-rows: 50px 50px;
+	justify-content: start;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 50px;
+}
+.button3{
+    text-align: center;
+	text-decoration: none;
+    color:white;
+	background-color: rgb(158, 158, 158);
+	font-size: 20px;
+	border-radius: 12px;
+	padding: 8px 32px;
+}
+.button3:hover{
+    opacity:0.7;
+}
+
 .button1 {background-color: #eb9824;} 
 
 .button1:hover {background-color: #8fbff3};
@@ -118,3 +190,17 @@ header{
 .button1 {background-color: #eb9824;} 
 
 .button1:hover {background-color: #8fbff3};
+
+body {
+    font-family: Arial, sans-serif;
+}
+.team-member {
+    margin: 40px;
+    padding: 30px;
+    border: 2px solid #577590;
+    border-radius: 10px;
+}
+.team-member img {
+    max-width: 100px;
+    border-radius: 50px; 
+}
