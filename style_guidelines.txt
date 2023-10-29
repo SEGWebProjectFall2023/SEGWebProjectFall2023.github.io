@@ -14,6 +14,8 @@ These are our color swatches:
 - #577590
 - #B0E0E6
 - #00FFFF
+- #577590
+- #03E5F1
 
 
 Iconography
