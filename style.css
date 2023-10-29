@@ -2,7 +2,7 @@ body
 {
 	font-size:30px;
     background-color: #FFF8DC;
-	height: 1000px;
+	height: 1100px;
     font-family: Arial, sans-serif;
 }
 
@@ -97,12 +97,12 @@ td{
 footer 
 {
 	position: relative;
-	bottom: 0;
+	bottom: 0%;
     left:0%;
     right:0%;
     background-color: #B0E0E6;
     text-align: center;
-    height: 100px;
+    height: 150px;
     width: 100%;
 }
 
