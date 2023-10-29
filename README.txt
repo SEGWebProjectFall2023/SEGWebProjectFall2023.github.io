@@ -18,3 +18,6 @@ MealBytes is a 3D food printer that can be used by people who seem to have very 
 
 GitHub Organization: 
 https://github.com/SEGWebProjectFall2023
+
+Trello:
+https://trello.com/b/FcQe53UQ/3d-food-printer
