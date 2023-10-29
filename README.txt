@@ -15,3 +15,6 @@ Product Name: MealBytes
 
 Description: 
 MealBytes is a 3D food printer that can be used by people who seem to have very little time to cook for themselves. It is supposed to promote a happier, healthier lifestyle for the consumers, and provide them with more time to complete their daily tasks. 
+
+GitHub Organization: 
+https://github.com/SEGWebProjectFall2023
