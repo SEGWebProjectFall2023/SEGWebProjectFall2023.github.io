@@ -191,6 +191,18 @@ header{
 
 .button1:hover {background-color: #8fbff3};
 
+
+.boutun{
+  border:none;
+  color:white;
+  background-color: cyan;
+  font-size:40px;
+  padding:10px;
+  border-radius: 30px;
+}
+.boutun:hover{
+  color:orange;
+  opacity:0.7;
 body {
     font-family: Arial, sans-serif;
 }
