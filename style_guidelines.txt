@@ -13,14 +13,13 @@ These are our color swatches:
 - #O6A77D
 
 
-Iconography <edit beyond this point>
+Iconography
 ===========
-We will focus on using icons that have a 'flat' design, which adheres to the overall look and feel.
-When selecting an icon, please select the correct icon for the job and keep the following in mind:
+We will be using a 'flat' design, where there are no shadows or 3D buttons.
 
 Typography
 ==========
-We will be using Roboto from Google Fonts.
+We will be using Arial from Google Fonts.
 
 Links
 =====
@@ -28,4 +27,4 @@ Links will not be underlined and should change color when a user hovers over it.
 
 Buttons
 =======
-Buttons will be flat designed using the chosen colors outlined above.
+Buttons will be flat designed using the Orange colour outlined above.
