@@ -13,6 +13,7 @@ These are our color swatches:
 - #8FBFF3
 - #577590
 - #B0E0E6
+- #00FFFF
 
 
 Iconography
@@ -29,4 +30,4 @@ Links will not be underlined but will change from a dark gray to a light gray wh
 
 Buttons
 =======
-Buttons will be flat designed using the Orange colour outlined above.
+Buttons will be flat designed using the Orange colour (#eb9824) outlined above.
