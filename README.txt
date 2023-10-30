@@ -9,7 +9,7 @@ Members:
 -	Keno Obuwoma (oobuw041) student number: 300345036
 -	Mehdi Semmar (FtKuBo) student number: 300372426
 -	Samarventhan Surendran (SS-SSUM021) student number: 300376981
--	Jaouen Girijambo (kygan2020) student number: 
+-	Jaouen Girijambo (kygan2020) student number: 300380919
 
 Product Name: MealBytes
 
