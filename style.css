@@ -124,7 +124,7 @@ footer
 
 .button{width: 10%;}
 
-.button:hover {background-color: #8fbff3;}
+.button,.buy:hover {background-color: #8fbff3;}
 
 .no{
   text-decoration:line-through;
