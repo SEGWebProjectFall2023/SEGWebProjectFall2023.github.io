@@ -107,14 +107,6 @@ footer
     width: 100%;
 	float: center;
 }
-
-
-header{
-			height: 100px;
-			width: auto;
-			border-radius: 25px;
-			background-color: rgb(255, 218, 82);
-		}
 		
 .title{
 	display: grid;
@@ -148,29 +140,6 @@ header{
     
     }
     
-    .header{
-			height: 100px;
-			width: auto;
-			border-radius: 25px;
-			background-color: rgb(255, 218, 82);
-		}
-		.title{
-			display: grid;
-			grid-template-columns: 500px 500px;
-			grid-template-rows: 50px 50px;
-			justify-content: start;
-			text-align: center;
-			font-family: "Arial";
-			font-size: 50px;
-		}
-		.button3{
-			text-align: center;
-			text-decoration: none;
-			background-color: rgb(158, 158, 158);
-			font-size: 20px;
-			border-radius: 12px;
-			padding: 8px 32px;
-		}
 .team-member {
     margin: 40px;
     padding: 30px;
