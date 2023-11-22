@@ -330,6 +330,42 @@ footer
   opacity:0.7;
 }
 
+#Locations{
+    border-radius: 15px;
+    border:2px solid #000000; 
+    width: 10%;
+    cursor:pointer;
+    opacity:0.5;
+    box-shadow: 5px 4px rgb(0, 0, 0);
+}
+
+#Locations:hover{
+    opacity:1;
+    box-shadow: 5px 4px rgb(0, 0, 0);
+}
+
+#Locations:active{
+    opacity:0.5;
+    box-shadow: 0px 0px rgb(0, 0, 0);
+
+}
+
+.fts{
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+#loca h2{
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#loca h3{
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /*BUTTON*/

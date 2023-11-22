@@ -58,6 +58,13 @@ function searchMenusInDistrict() {
   </header>
 
 <body >
+
+	<hr color="black">
+	<!-- Reference: https://www.w3schools.com/tags/tag_header.asp -->
+	<!-- header --> 
+	
+	<h1 Class="titleP">Welcome to our product features page!</h1>
+	<hr color="black">
 	<!-- Reference: https://www.w3schools.com/tags/tag_header.asp -->
 	<!-- header --> 
 	
@@ -73,16 +80,16 @@ function searchMenusInDistrict() {
 		<!-- Mettez votre code dans ces balises body -->
 		<!-- Assurez-vous de mettre votre code en retrait! -->
 		<!-- Ajoutez votre fonctionnalité ici -->
-		<h1>
-			Product Features!
-		</h1>
-	
-		<h2>Some of our products main features include:</h2>
-			<br><h3>500 Gigabytes of storage for recipes</h3>
-			<h3>5 Quarts of room for the food to be cooked in</h3>
-			<h3>500 Watts of power for cooking</h3>
+
+		<ul>
+			<li class="fts">• 500 Gigabytes of storage for recipes</li>
+			<li class="fts">• 5 Quarts of room for the food to be cooked in</li>
+			<li class="fts">• 500 Watts of power for cooking</li>
+		</ul>
+		
 		<br><br>
-	
+		
+		<section id="loca">
 		<h2>
 			No need to worry about your location we got you covered!
 		</h2>
@@ -96,6 +103,7 @@ function searchMenusInDistrict() {
 				<option value='location_3'>Barrhaven</option>
 				<option value='location_4'>Downtown</option>
 			</select>
+		</section>
 			<!-- Reference: https://stackoverflow.com/questions/12944329/add-onclick-function-to-a-submit-button -->
 			<!-- <input type="submit" value="Submit" class=class="button button1" onclick="searchMenusInDistrict()" > -->
 			<!-- <button onclick="searchMenusInDistrict()">Submit</button> -->
