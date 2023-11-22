@@ -185,7 +185,6 @@ td{
 
 .button {
       margin-top: 50px;
-      margin-left: 610px;
       border: none;
       color: white;
       padding-right: 100px;
@@ -378,12 +377,14 @@ footer
     margin-right: 100px;
 }
 .Food-printer{
-    margin-left: 450px;
-    margin-right: 50%;
     box-shadow: 10px 10px rgb(0, 0, 0);
     border-color: #000000;
     border-width: 2px;
     border-style: solid;
 }
-
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 /*BUTTON*/
