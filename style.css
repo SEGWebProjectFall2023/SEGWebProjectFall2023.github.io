@@ -109,9 +109,9 @@ section{
         font-size: 50px;
     }
     .rating .star{
-        color: rgb(255, 228, 55);
+        color: grey;
         cursor: pointer;
-
+        scale:0.75;
     }
     .rating .star:hover{
         transform: scale(1.1);
