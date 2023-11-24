@@ -109,9 +109,9 @@ section{
         font-size: 50px;
     }
     .rating .star{
-        color: rgb(255, 228, 55);
+        color: grey;
         cursor: pointer;
-
+        scale:0.75;
     }
     .rating .star:hover{
         transform: scale(1.1);
@@ -183,26 +183,6 @@ td{
 /*BODY*/
 
 
-.button {
-      margin-top: 50px;
-      border: none;
-      color: white;
-      padding-right: 100px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      border-top-left-radius: 1000px;
-      border-top-right-radius: 1000px;
-      border-bottom-right-radius:1000px;
-      border-bottom-left-radius: 1001px;
-      font-size: 22px;
-      line-height: 24px;
-      font-weight: 400;
-      letter-spacing: 0.7px;
-      transition-duration: 0.4s;
-      cursor: pointer;
-
-    }
 
 .no{
     text-decoration:line-through;
@@ -223,22 +203,6 @@ td{
 	font-family: "Arial";
 	font-size: 50px;
 }
-.button3{
-    text-align: center;
-	text-decoration: none;
-    color:white;
-	background-color: rgb(158, 158, 158);
-	font-size: 20px;
-	border-radius: 12px;
-	padding: 8px 32px;
-}
-.button3:hover{
-    opacity:0.7;
-}
-
-.button1 {background-color: #eb9824;} 
-
-
 
 footer 
 {
@@ -271,11 +235,12 @@ footer
 
 
 
-.button,.buy {
+.buy {
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
+    margin:20px;
     text-decoration: none;
     display: inline-block;
     border-top-left-radius: 1000px;
@@ -300,9 +265,11 @@ footer
     background-color: #eb9824;
   }
 
-.button{width: 10%;}
 
-.button,.buy:hover {background-color: #8fbff3;}
+.buy:hover {background-color: #8fbff3;}
+
+.buy:active{opacity: 0.7;
+}
 
 .no{
   text-decoration:line-through;
@@ -315,20 +282,6 @@ footer
     height: 70%;
     background-color:#ffffff ;
 
-}
-
-.button3{
-  text-align: center;
-  text-decoration: none;
-  color:white;
-  background-color: rgb(158, 158, 158);
-  font-size: 20px;
-  border-radius: 12px;
-  padding: 8px 32px;
-  margin-left: 5px;;
-}
-.button3:hover{
-  opacity:0.7;
 }
 
 #Locations{
